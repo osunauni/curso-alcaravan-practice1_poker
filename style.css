@@ -2,10 +2,15 @@
     --bg: #091413;
 }
 
+/* {
+  outline: 3px solid blueviolet;
+}*/ 
+
 body {
     display: flex;
     justify-content: center;
-    background-color: var(--bg);
+    height: 100vh;
+    background-image: linear-gradient(150deg, #091413, #0c1b1a, #132d2a);
 }
 
 /* STUDENT */
@@ -190,4 +195,21 @@ img {
     background-color: black;
     border-radius: 50%;
 
+}
+
+/* FOOTER */
+
+h4 {
+    color: #f2f2f28e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+
+.practice-num {
+    color: #f2f2f25e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: lighter;
+    text-align: center;
 }
